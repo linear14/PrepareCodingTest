@@ -17,10 +17,10 @@ private fun main() {
     // Large Size Array Test
     TestCase.testCase30000.let { testCase ->
         // Sort Test Here
-        printExecuteTime("Selection Sort") { SelectionSort(testCase.copyOf()).sortAsc() }
+       /* printExecuteTime("Selection Sort") { SelectionSort(testCase.copyOf()).sortAsc() }
         printExecuteTime("Bubble Sort") { BubbleSort(testCase.copyOf()).sortAsc() }
         printExecuteTime("Insertion Sort") { InsertionSort(testCase.copyOf()).sortAsc() }
-        printExecuteTime("Shell Sort") { ShellSort(testCase.copyOf()).sortAsc() }
+        printExecuteTime("Shell Sort") { ShellSort(testCase.copyOf()).sortAsc() }*/
         printExecuteTime("Merge Sort") { MergeSort(testCase.copyOf()).sortAsc() }
     }
 }

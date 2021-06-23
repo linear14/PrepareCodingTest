@@ -12,5 +12,5 @@ object TestCase {
         intArrayOf(1)
     )
 
-    val testCase30000 = IntArray(30000) { Random.nextInt(30000) }
+    val testCase30000 = IntArray(50000) { Random.nextInt(50000) }
 }
